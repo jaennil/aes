@@ -1,5 +1,5 @@
 """aes 128 cipher"""
-from utils import s_box, rcon, inv_rcon, multiply2_matrix, multiply3_matrix, inv_s_box, multiply9_matrix, multiply11_matrix, multiply13_matrix, multiply14_matrix
+from .utils import s_box, rcon, inv_rcon, multiply2_matrix, multiply3_matrix, inv_s_box, multiply9_matrix, multiply11_matrix, multiply13_matrix, multiply14_matrix
 
 
 def xor_strings(str1: str, str2: str) -> list[list[int]]:
